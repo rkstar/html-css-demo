@@ -1,0 +1,79 @@
+body {
+  background: url('../img/bg-santa.jpg') no-repeat top center;
+  background-size: cover;
+  font-family: 'Mountains of Christmas', cursive;
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 20px;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 100px;
+}
+
+section {
+  cursor: pointer;
+}
+
+article {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+article p {
+  color: black;
+  font-weight: 400;
+  width: 100%;
+}
+
+.face, .hat {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+}
+
+.hat {
+  left: 60px;
+}
+
+.face {
+  position: relative;
+  top: 100px;
+}
+
+.speech-bubble {
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  background: url("../img/speech-bubble.png") no-repeat top left;
+  background-size: contain;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 80px;
+  left: 300px;
+}
+
+.speech-bubble p {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  font-size: 2em;
+  font-weight: bold;
+}
